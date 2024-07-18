@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* home css */
+body {
+  background: radial-gradient(circle, #206CA2 0%, #0C283C 100%);
+  /* You can adjust the size and position here if needed */
+  background-color: #00366C;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: rgb(249, 249, 249);
+}
+
+th {
+  background-color: #1f1e1e;
+}
